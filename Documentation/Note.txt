@@ -1,0 +1,14 @@
+*** SensorTech
+- Loadcell 
+- LVDT
+- 4-20 mAh
+- Pull up, Pull down, gerilim bölücü
+- 0-10 V
+- PNP / NPN
+- NPN / PNP
+- Shift register
+- HC04
+- Encoder hall sensör
+- Multiplexer
+- Demultiplexer
+- Filtreleme sinyal işleme
