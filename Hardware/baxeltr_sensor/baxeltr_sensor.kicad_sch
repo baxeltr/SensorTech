@@ -1,0 +1,27 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c48f3267-cc9a-42ff-99ff-5758205a3e4c")
+	(paper "A3")
+	(lib_symbols)
+	(text "*** SensorTech\n- Loadcell \n- LVDT\n- 4-20 mAh\n- Pull up, Pull down, gerilim bölücü\n- 0-10 V\n- PNP / NPN\n- NPN / PNP\n- Shift register\n- HC04\n- Encoder hall sensör\n- Multiplexer\n- Demultiplexer\n- Filtreleme sinyal işleme\n"
+		(exclude_from_sim no)
+		(at 24.384 46.228 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "98b91943-9554-4614-b5ed-aaa6579a09d0")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
