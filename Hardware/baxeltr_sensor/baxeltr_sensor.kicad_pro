@@ -229,7 +229,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -411,6 +411,14 @@
     [
       "c48f3267-cc9a-42ff-99ff-5758205a3e4c",
       "Root"
+    ],
+    [
+      "e55981ed-f400-497f-8133-b802d5c26823",
+      "4-20mah_to_3.3V"
+    ],
+    [
+      "dfbecd62-96e5-45c7-a598-55c37a7d13c5",
+      "Si7021-A20 - I2C Humidity and Temperature Sensor"
     ]
   ],
   "text_variables": {}

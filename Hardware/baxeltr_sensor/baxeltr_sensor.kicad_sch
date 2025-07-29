@@ -5,9 +5,9 @@
 	(uuid "c48f3267-cc9a-42ff-99ff-5758205a3e4c")
 	(paper "A3")
 	(lib_symbols)
-	(text "*** SensorTech\n- Loadcell \n- LVDT\n- 4-20 mAh\n- Pull up, Pull down, gerilim bölücü\n- 0-10 V\n- PNP / NPN\n- NPN / PNP\n- Shift register\n- HC04\n- Encoder hall sensör\n- Multiplexer\n- Demultiplexer\n- Filtreleme sinyal işleme\n"
+	(text "*** SensorTech\n- Loadcell \n- LVDT\n-- 4-20 mAh\n- Pull up, Pull down, gerilim bölücü\n- 0-10 V\n- PNP / NPN\n- NPN / PNP\n- Shift register\n- HC04\n- Encoder hall sensör\n- Multiplexer\n- Demultiplexer\n- Filtreleme sinyal işleme\n-- Temperature\n- Thermocouple\n"
 		(exclude_from_sim no)
-		(at 24.384 46.228 0)
+		(at 23.114 48.006 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -17,6 +17,100 @@
 			(justify left)
 		)
 		(uuid "98b91943-9554-4614-b5ed-aaa6579a09d0")
+	)
+	(sheet
+		(at 24.13 129.54)
+		(size 54.61 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dfbecd62-96e5-45c7-a598-55c37a7d13c5")
+		(property "Sheetname" "Si7021-A20 - I2C Humidity and Temperature Sensor"
+			(at 24.13 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Si7021_humidity_and_temperature_sensor.kicad_sch"
+			(at 24.13 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 24.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "baxeltr_sensor"
+				(path "/c48f3267-cc9a-42ff-99ff-5758205a3e4c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 92.71)
+		(size 54.61 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e55981ed-f400-497f-8133-b802d5c26823")
+		(property "Sheetname" "4-20mah_to_3.3V"
+			(at 24.13 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4-20mah_to_3.3V.kicad_sch"
+			(at 24.13 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "baxeltr_sensor"
+				(path "/c48f3267-cc9a-42ff-99ff-5758205a3e4c"
+					(page "2")
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"
